@@ -1,4 +1,4 @@
-@JsonPrinter@ allows you to convert arbitrarily nested Ruby data structures into 
+JsonPrinter allows you to convert arbitrarily nested Ruby data structures into 
 human-and-machine-readable JSON output.  The input data can be any combination 
 of arrays, hashes, symbols, strings, numbers, and false, true, and nil values.
 
