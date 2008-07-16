@@ -10,7 +10,7 @@ describe "JsonPrinter" do
     it "should raise an error for invalid objects" do
       lambda {
         JsonPrinter.render(Object.new)
-      }.should raise_error(/unrenderable/)
+      }.should raise_error
     end
     
     it "should render nil with null" do
