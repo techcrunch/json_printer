@@ -77,6 +77,9 @@ class JsonPrinter
     elsif Numeric === obj
       print(obj.to_s)
     
+    elsif Time === obj
+      print(obj.to_s)
+    
     elsif obj.respond_to?(:keys)
       print("{")
       indent_out
