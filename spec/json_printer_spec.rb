@@ -37,6 +37,11 @@ describe "JsonPrinter" do
       JsonPrinter.render(7).should == %{7}
     end
     
+    it "should render times" do
+      t = Time.at(946702800).utc
+      JsonPrinter.render(t).should == "Sat Jan 01 05:00:00 UTC 2000"
+    end
+    
     it "should render arrays" do
       JsonPrinter.render([:foo, :bar, :bat]).should ==
         %{["foo",\n} <<
