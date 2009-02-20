@@ -43,3 +43,7 @@ The printer recognizes instances of @ActiveSupport::OrderedHash@ or other Hash-l
    "biz": "bat",
    "cat", "hat"}
 </code></pre>
+
+---
+
+Copyright 2009 Mark McGranaghan and released under an MIT license.
